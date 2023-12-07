@@ -66,7 +66,7 @@ public class CubeCoordinate : IEquatable<CubeCoordinate>
 
     public static CubeCoordinate GetDirection(int d)
     {
-        d = Mathf.Clamp(d, 0, 6);
+        d = Mathf.Clamp(d, 0, DirectionCount);
         return Directions[d];
     }
 
