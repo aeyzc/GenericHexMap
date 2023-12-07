@@ -1,2 +1,1 @@
-# GenericHexMap
- Generic hex map for unity.
+Source: https://www.redblobgames.com/grids/hexagons/
